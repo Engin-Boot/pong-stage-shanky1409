@@ -6,21 +6,22 @@ Single player feature (vs CPU)
 
 ## Acceptance Criteria
 
-### Scenario: Choose difficulty setting
+### Scenario: Select Player 1 Name
 
   Given the application is running
 
   When I select Single Player(vs CPU) in the menu
 
-  Then display three diffulty level(Easy, Medium, Hard)
+  Then change player 1 name as the name selected
 
-### Scenario: Select Name
+### Scenario: Choose Difficulty Setting
 
   Given the application is running
 
-  When the user score 10 points first
+  When I select Single Player(vs CPU) in the menu
+  and then selects the name
 
-  Then declare the user as winner
+  Then display three difficulty level(Easy, Medium, Hard)
 
 ### Scenario: User Winning
 
