@@ -1,6 +1,7 @@
 # Interaction Sequences
 
 ## Startup Sequence
+
 ```mermaid
     sequenceDiagram
         Menu ->> +Single Player: To start single player game
