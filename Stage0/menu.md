@@ -10,17 +10,17 @@
 
   Given the Ping-Pong application is running
 
-  When I select SinglePlayer mode in the menu
+  When I select Single Player mode in the menu
 
-  Then open the screen asking Player1 name.
+  Then open the screen asking Player 1 name.
 
-### Scenario: Selecting MultiPlayer Mode
+### Scenario: Selecting Multi Player Mode
 
   Given the Ping-Pong application is running
 
-  When I select MultiPlayer mode in the menu
+  When I select Multi Player mode in the menu
 
-  Then open the screen asking Player1 and Player2 name.
+  Then open the screen asking Player 1 and Player 2 name.
 
 ### Scenario: Selecting Stats option in menu
 

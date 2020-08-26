@@ -2,7 +2,7 @@
 
 ## Startup Sequence
 
-sequenceDiagram
+### sequenceDiagram
 
     Menu ->> +Single Player: To start single player game
     Menu ->> +MultiPlayer: To start Multiplayer game
