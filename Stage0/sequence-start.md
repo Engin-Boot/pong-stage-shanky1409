@@ -4,11 +4,11 @@
 
 sequenceDiagram
 
-	Menu->>+Single Player: To start single player game
-    Menu->>+MultiPlayer: To start Multiplayer game
-    Menu->>+Stats: To check player stats
-    Menu->>+Setting: To change background setting, ball color
-    Menu->>+Exit: To exit the game 	
+    Menu ->> +Single Player: To start single player game
+    Menu ->> +MultiPlayer: To start Multiplayer game
+    Menu ->> +Stats: To check player stats
+    Menu ->> +Setting: To change background setting, ball color
+    Menu ->> +Exit: To exit the game
 
 ## Movement Initiation
 
